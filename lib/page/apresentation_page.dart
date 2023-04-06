@@ -1,3 +1,4 @@
+import 'package:app_business_card/page/map_page.dart';
 import 'package:flutter/material.dart';
 
 class ApresentationPage extends StatelessWidget {
@@ -165,7 +166,14 @@ class ApresentationPage extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.end,
                             children: [
                               TextButton(
-                                onPressed: () {},
+                                onPressed: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => const MapPage(),
+                                    ),
+                                  );
+                                },
                                 child: const Text(
                                   'Mapa',
                                   style: TextStyle(fontSize: 16),
