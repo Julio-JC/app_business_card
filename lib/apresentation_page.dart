@@ -98,7 +98,7 @@ class ApresentationPage extends StatelessWidget {
                               Icons.pin_drop,
                               color: Colors.white,
                             ),
-                            SizedBox(
+                            const SizedBox(
                               width: 10,
                             ),
                             Column(
@@ -136,6 +136,7 @@ class ApresentationPage extends StatelessWidget {
                           ],
                         ),
                         Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: const [
                             Text(
                               'REUNIÕES AOS DOMINGOS',
