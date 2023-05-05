@@ -193,4 +193,6 @@ class ApresentationPage extends StatelessWidget {
       ),
     );
   }
+  //TODO: Não deixar numeros flutuantes nem textos diretamente nas variaveis;
+  //TODO: Só é usado inglês na programção;
 }
